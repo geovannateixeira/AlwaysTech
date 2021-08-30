@@ -1,0 +1,98 @@
+h2{
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;   
+}
+article {
+    margin: auto;
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+#cesta_container {
+    width: 68%;
+    background-color: white;
+    color: black;
+}
+#cesta_container h2 {
+    width: fit-content;
+    margin-left: 40px;
+}
+hr {
+    width: 90%;
+    margin: auto;
+}
+.produtos_lista {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.produto_box {
+    display: flex;
+}
+.produto_img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+.produto_titulo {
+    text-align: center;
+    align-self: center;
+}
+.quant {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+.menos, .mais {
+    width: 30px;
+    height: 100%;
+    border: none;
+}
+.qtd {
+    margin: 0;
+    align-self: center;
+}
+.preço {
+    font-size: 13pt;
+    align-self: center;
+}
+
+
+.result_container {
+    width: 30%;
+    background-color: white;
+    margin-left: auto;
+}
+.result {
+    color: black;
+    margin-left: 20px;
+}
+.total {
+    font-size: 18pt;
+    margin-bottom: 0;
+}
+.parce {
+    margin-top: 0;
+}
+.btn_content {
+    width: 90%;
+    margin: auto;
+}
+.btn_next {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #3A506B;
+    border-radius: 5px;
+    background-color: #5BC0BE;
+    color: #0B132B;
+    font-size: larger;
+    margin-top: 100%;
+    margin-bottom: 10px;
+}

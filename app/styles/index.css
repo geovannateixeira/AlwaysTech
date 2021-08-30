@@ -1,0 +1,131 @@
+h1, h3 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+hr {
+  width: 90%;
+}
+
+section{
+  width: 80%;
+  /*background-color: #A08E8E;*/
+  margin: auto;
+  margin-top: 3%;
+}
+
+.tituloprod{
+  color: #FFFFFF;
+}
+
+.maisvend{
+  width: 250px;
+  height: 230px;
+  background-color: #FFFFFF;
+  box-shadow: 2px 2px 3px #FFFFFF;
+  margin-left: 18px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.maisvend img{
+  width: 190px;
+  height: 180px;
+  margin-left: 20px;
+}
+
+.text{
+  background-color: #1C1C1C;
+  width: 100%;
+  height: 45px;
+  float: left;
+  margin-left: 1px;
+}
+
+ a{
+  text-decoration: none
+}
+
+.txtDest {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+
+#slider{
+  width: 800px;
+  height: 290px;
+  display: block;
+ margin-bottom: 500px;
+  box-shadow: 2px 3px 3px 3px #FFFFFF;
+  margin: 20px auto 20px auto;
+}
+
+#slider img{
+  opacity: 0;
+  position: absolute;
+  width: 800px;
+  height: 290px;
+  object-fit: cover;
+  transition: opacity 800ms;
+}
+
+#slider img.selected{
+  opacity: 1;
+}
+
+#slider figcaption{
+  width: 800px;
+  height:79px;
+  position: absolute;
+  margin-top: 214px;
+  margin-right: 20px;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 5px black;
+  background-color: rgba(58, 80, 107, 0.8);
+  text-align: center ;
+}
+
+#slider figcaption p {
+  margin: 10px;
+}
+
+.container_products {
+  width: 70%;
+  margin: auto;
+}
+
+.prod{
+  width: 30%;
+  display: inline-block;
+  margin: 15px 1.0% 15px 1.00%;
+  box-shadow: 2px 2px 3px #FFFFFF;
+}
+
+.prod img{
+  width: 100%;
+  height: 250px;
+  float: left;
+}
+
+.txt{
+  width:100%;
+  height: 65px;
+  float: left;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+.txt a{
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+b{
+  line-height: 20px;
+}

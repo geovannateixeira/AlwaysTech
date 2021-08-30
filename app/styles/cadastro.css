@@ -1,0 +1,52 @@
+
+section{
+    width: 80%;
+    height: 550px;
+    /*background-color: #A08E8E;*/
+    margin: auto;
+    margin-top: 3%;
+}
+
+.ttl{
+    line-height: 80px;
+    text-align: center;
+}
+
+.cad{
+    width:700px;
+    height:550px;
+    /*background-color: #000000;*/
+    color: #FFFFFF;
+    margin: auto;
+    box-shadow: 3px 2px 2px 3px  #FFFFFF;
+}
+
+.frm{
+    font-size: 16px;
+    padding-left: 40pt;
+}
+
+.lg, .lg img{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-right: 30px;
+    margin-top: -20px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+#btn{
+    width: 100px;
+    height: 30px;
+    margin-left: 300px;
+    float: left;
+}
