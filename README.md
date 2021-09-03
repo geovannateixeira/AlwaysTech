@@ -4,10 +4,7 @@ Universidade Cruzeiro do Sul - Análise e Desenvolvimentos de Sistemas
 
 # Integrantes 
 
-Rodrigo Angelis
-Guilherme Manfrin
-Geovanna dos Santos
-Diego Almeida
+Rodrigo Angelis, Guilherme Manfrin, Geovanna dos Santos, Diego Almeida,
 
 # Sobre
 
