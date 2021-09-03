@@ -1,5 +1,5 @@
 # AlwaysTech
-Projeto desenvolvido para a disciplina de Análise e Projetos de Sistemas II
+Projeto desenvolvido para a disciplina de Análise e Projetos de Sistemas II <br>
 Universidade Cruzeiro do Sul - Análise e Desenvolvimentos de Sistemas
 
 # Integrantes 
