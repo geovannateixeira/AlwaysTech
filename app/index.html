@@ -5,78 +5,45 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/menu.css">
     <title>Home</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li> <a href="index.html"> Home </a></li>
-                <li> <a href="./html/produtos.html"> Produtos </a></li>
-                <li> <a href="./html/contato.html"> Contato </a></li>
+
+        <div class="logo1"><a href="/app/index.html">Always Tech</a></div>
+        <input type="checkbox" id="btn_menu">
+        <label for="btn_menu">&#9776;</label>
+        
+        <nav class="menu">
+            
+            <ul class="lists">
+                <li><a href="/app/html/produtos.html"> Produtos </a></li>
+                <li><a href="/app/html/contato.html"> Contato </a></li>
                 
-                <li>
-                <a href="index.html">
-                    <span class="logo"> Always Tech </span>
-                  </a>
-                </li>
-                <li> <a href="html/carrinho.html"> <img src="images/icons/car_icon.png"></a></li>
-                <li> <a href="html/login.html"> <img src="images/icons/perfil.png"></a></li>
+            </ul> 
+
+            <ul class="title">
+                <div class="logo">
+                    <li><a href="/app/index.html">
+                        <span>Always Tech</span> 
+                    </a></li>
+                </div>
+            </ul>    
+
+            <ul class="lists2">  
+                <li><a href="/app/html/carrinho.html"> <img src="/app/icons/car_icon.png"></a></li>  
+                <li><a href="/app/html/login.html"> <img src="/app/icons/perfil.png"></a></li>
+                
             </ul>
         </nav>
+ 
     </header>
 
     <main>
         <section>
 
-            <h1 class="tituloprod"> Destaques do Dia</h1>
-           
-
-           <div class="maisvend"> 
-               <img src="images/products/pdt1.jpg" alt=""> 
-     
-            <div class="text">
-                <a href="produtos/kit.html"> 
-                <p class="txtDest"> Kit Teclado, Mouse, MousePad </p> 
-                </a> 
-           </div>
-          </div>
-
-           
-            <div class="maisvend">
-                 <img src="images/products/pdt3.jpg" alt="">
-                 
-            <div class="text">
-                 <a href="produtos/i5.html"> 
-                    <p class="txtDest""> Processador Intel I5 </p>
-                 </a> 
-            </div>
-            </div>
-
-
-           <div class="maisvend">
-                <img src="images/products/pdt5.jpg" alt="">
-                
-            <div class="text">
-                 <a href="produtos/monitor.html">
-                     <p class="txtDest""> Monitor GameMax 27" </p>
-                     </a>
-            </div>         
-            </div>
-
-
-           <div class="maisvend">
-                <img src="images/products/pdt6.jpg" alt="">
-                
-            <div class="text">
-                 <a href="produtos/note.html">
-                     <p class="txtDest""> Notebook Acer Intel Core i5, 8GB </p>
-                     </a>
-            </div>         
-            </div>
- 
-           <hr>
-
+           <div> <!--Mais Destaques-->
 
             <h1 class="ttlprod"> Mais Destaques</h1>
             <figure id="slider">
@@ -93,7 +60,11 @@
                 <img class="" src="images/products/3.jpg"> 
             </figure>
         
+            </div>
+
             <hr>
+
+            <div> <!--Produtos Mais Vendidos-->
 
             <h3> Produtos Mais Vendidos </h3>
 
@@ -135,56 +106,62 @@
                 </div>
             </div>
 
-            <h1 class="ultpc"> Últimas Peças </h1>
-           <hr class="ult">
+            </div>
 
-          
-           <div class="maisvend">
-                <img src="images/products/ult1.jpg" alt="">
-               
-                <div class="text">
-                 <a href="produtos/ram.html">
-                     <p class="txtDest"> Memória HyperX Predator RGB, 8GB </p>
-                 </a>
-                     </div>
-                     </div>
+            <section> <!--Últimas Peças-->
 
+                <h1 class="ultpc"> Últimas Peças </h1>
+                <hr class="ult">
 
-           <div class="maisvend">
-                <img src="images/products/ult2.jpg" alt="">
-            
-                <div class="text">
-                 <a href="produtos/ssd.html">
-                     <p class="txtDest"> SSD Kingston A400, 240GB </p>
-                     </a>
-                     </div>
-                </div>
+                <div class="ult_pecas">
+                    <div class="maisvend">
+                        <img src="images/products/ult1.jpg" alt="">
+                    
+                        <div class="text">
+                            <a href="produtos/ram.html">
+                                <p class="txtDest"> Memória HyperX Predator RGB, 8GB </p>
+                            </a>
+                        </div>
+                    </div>
 
-           <div class="maisvend">
-                <img src="images/products/ult3.jpg" alt="">
-                
-                <div class="text">
-                    <a href="produtos/hd.html"> 
-                        <p class="txtDest"> HD Seagate BarraCuda, 1TB </p>
-                     </a>
-                     </div>
-                     </div>
+                    <div class="maisvend">
+                        <img src="images/products/ult2.jpg" alt="">
+                    
+                        <div class="text">
+                            <a href="produtos/ssd.html">
+                                <p class="txtDest"> SSD Kingston A400, 240GB </p>
+                            </a>
+                        </div>
+                    </div>
 
-           <div class="maisvend">
-                <img src="images/products/ult4.jpg" alt="">
-                
-                <div class="text">
-                <a href="produtos/rote.html">
-                     <p class="txtDest"> Roteador Wireless Dual Band TP </p>
-                     </a>
-                     </div>
-                     </div>
-        
+                    <div class="maisvend">
+                        <img src="images/products/ult3.jpg" alt="">
+                        
+                        <div class="text">
+                            <a href="produtos/hd.html"> 
+                                <p class="txtDest"> HD Seagate BarraCuda, 1TB </p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="maisvend">
+                        <img src="images/products/ult4.jpg" alt="">
+                        
+                        <div class="text">
+                            <a href="produtos/rote.html">
+                                <p class="txtDest"> Roteador Wireless Dual Band TP </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>        
+            </section>
 
 	    </section>
     </main>
 
-    <footer> <p> &copy 2021 -Diego / Geovanna /  Guilherme / Rodrigo / - ADS4/APSII </p> </footer> 
+
+    <footer> <p> &copy 2021 - Diego / Geovanna /  Guilherme / Rodrigo / - ADS4/APSII </p> </footer> 
+    <script src="scripts/mobile-menu.js"></script>
     <script src="scripts/index.js"></script>
 </body>
 </html>
