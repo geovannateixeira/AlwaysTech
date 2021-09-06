@@ -18,12 +18,18 @@ section{
   color: #FFFFFF;
 }
 
+.ult_pecas{
+  margin: auto;
+  width: fit-content;
+}
+
 .maisvend{
   width: 250px;
   height: 230px;
   background-color: #FFFFFF;
   box-shadow: 2px 2px 3px #FFFFFF;
-  margin-left: 18px;
+  margin-left: 9px;
+  margin-right: 9px;
   margin-bottom: 20px;
   float: left;
 }
@@ -42,7 +48,7 @@ section{
   margin-left: 1px;
 }
 
- a{
+a{
   text-decoration: none
 }
 
@@ -58,7 +64,7 @@ section{
   width: 800px;
   height: 290px;
   display: block;
- margin-bottom: 500px;
+  margin-bottom: 500px;
   box-shadow: 2px 3px 3px 3px #FFFFFF;
   margin: 20px auto 20px auto;
 }
@@ -128,4 +134,88 @@ section{
 
 b{
   line-height: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px){
+  #slider, .ttlprod, hr{
+    display: none;
+  }
+  .prod{
+    width: 255px;
+    position: relative;
+    right: 26px;
+  }
+  .maisvend{
+    width: 100%;
+    margin-left: 14px;
+  }
+  .tituloprod, h3, .ultpc{
+    position: relative;
+    left: 15px;
+  }
+  footer{
+    border: none;
+  }
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px){
+  
+  .ult_pecas{
+    width: 100%;
+  }
+  .maisvend{
+    width: 45%;
+  }
+  main{
+    display: block;
+  }
+  hr{
+    width: 121%;
+    position: relative;
+    right: 64px;
+  }
+  .prod{
+    float: left;
+    width: 100%;
+
+  }
+  footer{
+    width: 97.9%;
+    border: none;
+  }
+  body{
+    width: 102.8%;
+  }
+  #slider{
+    width: 550px;
+    position: relative;
+    right: 20px;
+  }
+  #slider figcaption{
+    width: 550px;
+  }
+  #slider img{
+    width: 550px;
+  }
+  header{
+    width: 98.3%;
+  }
+
+}
+
+@media screen and (min-width: 1025px){
+    .prod{
+      width: 240px;
+      margin-left: 16px;
+    }
+    footer{
+      border: none;
+    }
+    header{
+      width: 100%;
+    }
+    .container_products{
+      width: 890px;
+    }
 }

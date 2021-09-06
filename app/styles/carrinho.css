@@ -96,3 +96,81 @@ hr {
     margin-top: 100%;
     margin-bottom: 10px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+    #cesta_container{
+        width: 100%;
+    }
+
+    article{   
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .produtos_lista{
+        display: block;
+        margin-top: 15px;
+    }
+
+    .produto_titulo{
+        font-size: 12pt;
+    }
+
+    .quant{
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .result_container{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .btn_next{
+        font-size: 15px;
+        margin-top: 0%;
+    }
+
+
+    footer{
+        position: relative;
+        top: 400px;
+        border: none;
+        font-size: 15px;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px){
+    #cesta_container{
+        width: 100%;
+        margin-right: 15px;
+        position: relative;
+        right: 45px;
+    }
+
+    .result_container{
+        margin-left: -10px;
+        width: 250px;
+    }
+
+    footer{
+        border: none;
+    }
+
+    .btn_next{
+        font-size: 15px;
+    }
+
+    .preço{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    footer{
+        border: none;
+    }
+}

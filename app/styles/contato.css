@@ -71,3 +71,44 @@ input{
 .fml #btn {
     margin-top: 30px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 640px){
+    body{
+        width: 700px;
+        margin-left: -30px;
+    }
+    header, footer{
+        width: 100%;
+        border: none;
+    }
+    .fml{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+
+    }
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px){
+    header{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+
+    .fml{
+        margin-top: 40px;
+        margin-left:auto;
+        margin-right: auto;
+        width: 580px;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    header, footer{
+        margin: auto;
+        border: none;
+    }
+}
