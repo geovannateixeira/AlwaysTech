@@ -6,25 +6,40 @@
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/login.css">
+    
+    <link rel="stylesheet" href="/app/styles/menu.css">
     <title>Login</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li> <a href="../index.html"> Home </a></li>
-                <li> <a href="./produtos.html"> Produtos </a></li>
-                <li> <a href=".contato.html"> Contato </a></li>
+
+        <div class="logo1"><a href="/app/index.html">Always Tech</a></div>
+        <input type="checkbox" id="btn_menu">
+        <label for="btn_menu">&#9776;</label>
+        
+        <nav class="menu">
+            
+            <ul class="lists">
+                <li><a href="/app/html/produtos.html"> Produtos </a></li>
+                <li><a href="/app/html/contato.html"> Contato </a></li>
                 
-                <li>
-                <a href="../index.html">
-                    <span class="logo"> Always Tech </span>
-                  </a>
-                </li>
-                <li> <a href="../html/carrinho.html"> <img src="../images/icons/car_icon.png"></a></li>
-                <li> <a href="../html/login.html"> <img src="../images/icons/perfil.png"></a></li>
+            </ul> 
+
+            <ul class="title">
+                <div class="logo">
+                    <li><a href="/app/index.html">
+                        <span>Always Tech</span> 
+                    </a></li>
+                </div>
+            </ul>    
+
+            <ul class="lists2">  
+                <li><a href="/app/html/carrinho.html"> <img src="/app/icons/car_icon.png"></a></li>  
+                <li><a href="/app/html/login.html"> <img src="/app/icons/perfil.png"></a></li>
+                
             </ul>
         </nav>
+ 
     </header>
 
     <main>
@@ -68,7 +83,7 @@
             
     </main>
 
-    <footer> <p> &copy 2021 -Diego / Geovanna /  Guilherme / Rodrigo / - ADS4/APSII </p> </footer> 
+    <footer> <p> &copy 2021 - Diego / Geovanna /  Guilherme / Rodrigo / - ADS4/APSII </p> </footer> 
     <script src="../scripts/login.js"> </script>
 </body>
 </html>
