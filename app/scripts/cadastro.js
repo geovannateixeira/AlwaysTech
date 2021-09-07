@@ -49,3 +49,7 @@ function validar(){
 
    
 }
+
+function voltar(){
+    window.location = "../html/login.html";
+}

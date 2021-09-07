@@ -7,7 +7,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: Lucida Console;
-    color: #000000;
+    color: #FFFFFF;
     /*border: none;*/
 }
 
@@ -29,7 +29,7 @@ form a:hover{
 }
 
 #login{
-    background-color: #FFFFFF;
+    /*background-color: #FFFFFF;*/
     width: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -37,6 +37,7 @@ form a:hover{
     margin-top: 10vh;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 3px 2px 2px 3px  #FFFFFF
 }
 
 form{
@@ -55,6 +56,8 @@ label{
 }
 
 input{
+    color: #FFFFFF;
+    background-color:#040C23;
     padding: 10px;
     font-size: 1rem;
     margin-bottom: 20px;
@@ -70,11 +73,12 @@ input:focus{
 }
 
 #forgot-pass{
+    color:#FFFFFF;
     text-align: right;
     display: block;
 }
 
-input[type="submit"]{
+input[type="button"]{
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -87,9 +91,12 @@ input[type="submit"]{
     cursor: pointer;
 }
 
-input[type="submit"]:hover{
+input[type="button"]:hover{
     background-color: #1B223C;
     transition: .5s;
+}
+.ttl_sociais{
+    margin-bottom: 20px;
 }
 
 #sociais{

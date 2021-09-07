@@ -1,7 +1,7 @@
 
 section{
     width: 80%;
-    height: 550px;
+    height: 600px;
     /*background-color: #A08E8E;*/
     margin: auto;
     margin-top: 3%;
@@ -14,11 +14,12 @@ section{
 
 .cad{
     width:700px;
-    height:550px;
+    height:600px;
     /*background-color: #000000;*/
     color: #FFFFFF;
     margin: auto;
     box-shadow: 3px 2px 2px 3px  #FFFFFF;
+    border-radius: 5%;
 }
 
 .frm{
@@ -45,9 +46,11 @@ input[type=number] {
 }
 
 #btn{
-    width: 100px;
-    height: 30px;
-    margin-left: 300px;
+    width: 150px;
+    height: 40px;
     float: left;
+    margin-left: 120px;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
