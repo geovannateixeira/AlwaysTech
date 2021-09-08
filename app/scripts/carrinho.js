@@ -56,8 +56,8 @@ function valor_total() {
 
     let val1 = parseInt(document.getElementById("quantidade").innerText);
     let val2 = parseInt(document.getElementById("quantidade2").innerText);
-    let val_prod1 = val1 * 2000;
-    let val_prod2 = val2 * 250;
+    let val_prod1 = val1 * 3000;
+    let val_prod2 = val2 * 450;
 
     let soma = val_prod1 + val_prod2;
     document.getElementById("total_value").innerHTML = "Total: R$ " + soma.toLocaleString('pt-br', {minimumFractionDigits: 2});
