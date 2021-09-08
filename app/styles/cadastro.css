@@ -1,6 +1,6 @@
 section{
     width: 80%;
-    height: 600px;
+    height: 710px;
     /*background-color: #A08E8E;*/
     margin: auto;
     margin-top: 3%;
@@ -13,7 +13,7 @@ section{
 
 .cad{
     width:700px;
-    height:600px;
+    height:710px;
     /*background-color: #000000;*/
     color: black;
     margin: auto;
@@ -32,6 +32,10 @@ section{
     float: right;
     margin-right: 30px;
     margin-top: -20px;
+}
+
+input{
+    height: 30px;
 }
 
 input[type=number]::-webkit-inner-spin-button { 

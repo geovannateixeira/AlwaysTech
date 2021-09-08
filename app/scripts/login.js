@@ -1,12 +1,12 @@
 var usuarios = [
-    {"login": "rodrigo", "senha": "12345"},
-    {"login": "guilherme", "senha": "12345"},
-    {"login": "geovanna", "senha": "12345"},
-    {"login": "diego", "senha": "12345"}
+    {"login": "rodrigo", "senha": "547saq@@"},
+    {"login": "guilherme", "senha": "547saq@@"},
+    {"login": "geovanna", "senha": "547saq@@"},
+    {"login": "diego", "senha": "547saq@@"}
 ];
 
 var func = [
-    {"login": "adm", "senha": "12345"}
+    {"login": "administrador", "senha": "547saq@@"}
 ];
 
 function Login() {
@@ -24,8 +24,8 @@ function Login() {
     for (var f in func) {
         var fc = func[f];
          if(fc.login === usuario && fc.senha === senha){ 
-            alert("Você Está Entrando Na Página de Usuário")
-            window.open("../html/funcionario.html","Funcionário",true);
+            alert("Você Está Entrando Na Página de Funcionário")
+            window.location = "../html/funcionario.html";
             return true;
         }
     }
@@ -33,4 +33,8 @@ function Login() {
     alert("Dados incorretos, tente novamente.");
     return false;
 }
+}
+
+function cadastro(){
+    window.location = "../html/cadastro.html";
 }
