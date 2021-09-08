@@ -5,163 +5,233 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/menu.css">
     <title>Home</title>
 </head>
 <body>
     <header>
 
-        <div class="logo1"><a href="/app/index.html">Always Tech</a></div>
-        <input type="checkbox" id="btn_menu">
-        <label for="btn_menu">&#9776;</label>
-        
-        <nav class="menu">
-            
-            <ul class="lists">
-                <li><a href="/app/html/produtos.html"> Produtos </a></li>
-                <li><a href="/app/html/contato.html"> Contato </a></li>
-                
-            </ul> 
+        <!-- Mobile Contents -->
 
-            <ul class="title">
-                <div class="logo">
-                    <li><a href="/app/index.html">
-                        <span>Always Tech</span> 
-                    </a></li>
+        <div id="mobile-header_content">
+            <div id="mb-menu_content">
+                <input type="checkbox" id="btn_menu">
+                <label id="menu_icon" for="btn_menu">&#9776;</label>
+
+                <nav class="menu">
+                    <ul class="lists">
+                        <li><a href="html/produtos.html"> Computadores </a></li>
+                        <li><a href="html/produtos.html"> Notebooks </a></li>
+                        <li><a href="html/produtos.html"> Componentes </a></li>
+                    </ul> 
+    
+                    <ul class="lists">  
+                        <li><a href="html/carrinho.html"> Carrinho</a></li>
+                        <li><a href="html/contato.html"> Contato</a></li>
+                        <li><a href="html/login.html"> Login/Cadastro </a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="mb-tittle_content" class="nav_box">
+                <a href="index.html">Always Tech</a>
+            </div>
+        </div>
+
+        <!-- Desktop Contents -->
+
+        <div id="desktop-header_content">
+            <div id="sub-menu_content" class="nav_box">
+                <div id="sub-menu">
+                    <a href="html/produtos.html"> Produtos </a>
+                    <div id="sub-menu_options">
+                        <a href="html/produtos.html"> Computadores </a>
+                        <a href="html/produtos.html"> Notebooks </a>
+                        <a href="html/produtos.html"> Componentes </a>
+                    </div>
                 </div>
-            </ul>    
-
-            <ul class="lists2">  
-                <li><a href="/app/html/carrinho.html"> <img src="/app/icons/car_icon.png" /></a></li>  
-                <li><a href="/app/html/login.html"> <img src="/app/icons/perfil.png"/></a></li>
-                
-            </ul>
-        </nav>
- 
+            </div>
+            
+            <div id="tittle_content" class="nav_box">
+                <a href="index.html">Always Tech</a>
+            </div>
+            
+            <div id="img_content" class="nav_box">
+                <div id="img_box">
+                    <div title="Carrinho" class="img_box">
+                        <a href="html/carrinho.html"> <img src="icons/car_icon.png" /></a>
+                    </div>
+                    <div title="Contato" class="img_box">
+                        <a href="html/contato.html"><img src="icons/contato.png"></a>
+                    </div>
+                    <div title="Perfil" class="img_box">
+                        <a href="html/login.html"> <img src="icons/perfil.png"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </header>
 
     <main>
         <section>
 
-           <div> <!-- Destaques-->
+            <!-- Destaques-->
 
             <h1 class="ttlprod"> Destaques</h1>
             <figure id="slider">
-              <img class="selected" src="https://i.ibb.co/1RS2nNN/ram.jpg" alt="ram" border="0" /> 
+              <img class="selected" src="https://i.ibb.co/26rw9wS/ram.png" alt="ram"/> 
 		    	<figcaption id="texto1">
                     <p> Memória Ram HyperX 16GB</p>
-                    <p> R$150,00 (cada)</p>
+                    <p> R$280,00</p>
                 </figcaption>
-                <img class="" src="http://s2.glbimg.com/UW8abKPSiiIaFqD83ZVtB7_Gous=/695x0/s.glbimg.com/po/tt2/f/original/2017/01/13/2dell-inspiron-15-7000-series.jpg"> 
+                <img src="https://i.ibb.co/drw6xmm/note.png" alt="note"/>
                 <figcaption id="texto2" style="opacity: 0;"> 
                     <p> Notebook Dell Inspirion 7000</p>
                     <p> R$7.500,00</p>
                 </figcaption>              
-                <img src="https://i.ibb.co/QFN8JT9/3.jpg" alt="3" border="0" /> 
+                <img src="https://i.ibb.co/R9WZtrW/teclado.png" alt="teclado"/>
+                <figcaption id="texto3" style="opacity: 0;"> 
+                    <p> Teclado Gamer Led Rgb</p>
+                    <p> R$185,90</p>
+                </figcaption> 
             </figure>
-        
-            </div>
 
             <hr>
 
-            <div> <!--Produtos Mais Vendidos-->
+            <!--Produtos Mais Vendidos-->
 
             <h3> Produtos Mais Vendidos </h3>
 
             <div class="container_products">
-                <div class="prod"> <img src="https://i.ibb.co/7vK4QnB/gab1.jpg" alt="gab1" border="0">
-                    <p class="txt"> <a href="produtos/sky.html"> <b> SkyTech Legacy Gaming</b> </a> <br> R$4.000,00 </p>
+                <div class="prod"> 
+                    <a href="produtos/sky.html">
+                        <img src="https://i.ibb.co/7vK4QnB/gab1.jpg" alt="gab1"/>
+                        <p>SkyTech Legacy Gaming</p>
+                        <p>R$4.000,00</p>
+                    </a>
                 </div>
     
-                <div class="prod"> <img src="https://i.ibb.co/qdddCmZ/ult3.jpg" alt="ult3" border="0" />
-                    <p class="txt"> <a href="produtos/hd.html"> <b> HDD WD 1TB </b> </a> <br> R$600,00 </p>
+                <div class="prod">
+                    <a href="produtos/hd.html">
+                        <img src="https://i.ibb.co/qdddCmZ/ult3.jpg" alt="ult3"/>
+                        <p>HDD WD 1TB</p>
+                        <p>R$600,00</p>
+                    </a>
                 </div>
     
-                <div class="prod"> <img src="https://i.ibb.co/2qmVyms/pm.jpg" alt="pm" border="0" />
-                    <p class="txt"> <a href="produtos/pm.html"> <b> Placa Mãe Asus Prime </b> </a> <br> R$579,00 </p>
+                <div class="prod"> 
+                    <a href="produtos/pm.html">
+                        <img src="https://i.ibb.co/2qmVyms/pm.jpg" alt="pm"/>
+                        <p>Placa Mãe Asus Prime</p>  
+                        <p>R$579,00</p>
+                    </a>
+                </div>
+            </div>    
+            <div class="container_products">
+                <div class="prod">
+                    <a href="produtos/archangel.html">
+                        <img src="https://i.ibb.co/k84qVrG/gab2.jpg" alt="gab2"/>
+                        <p> SkyTech Archangel Gaming </p> 
+                        <p> R$2.500,00 </p>  
+                    </a>       
                 </div>
     
-                <div class="prod"> <img src="https://i.ibb.co/k84qVrG/gab2.jpg" alt="gab2" border="0" />
-                    <p class="txt"> <a href="produtos/archangel.html"> <b> SkyTech Archangel Gaming </b> </a> <br> R$2.500,00 </p>            
+                <div class="prod"> 
+                    <a href="produtos/amd.html">
+                        <img src="https://i.ibb.co/kx8669c/procAmd.jpg" alt="procAmd"/> 
+                        <p> Processador Ryzen 9 3950X </p> 
+                        <p>R$2.070,00</p>
+                    </a>
                 </div>
     
-                <div class="prod"> <img src="https://i.ibb.co/kx8669c/procAmd.jpg" alt="procAmd" border="0" /> 
-                    <p class="txt"> <a href="produtos/amd.html"> <b> Processador Ryzen 9 3950X </b> </a> <br> R$2.070,00 </p>
-                </div>
-    
-                <div class="prod"> <img src="https://i.ibb.co/Qv7zZw1/procIntl.jpg" alt="procIntl" border="0" />
-                    <p class="txt"> <a href="produtos/i9.html">  <b> Intel Core i9 9960X </b> </a> <br> R$4.170,00 </p>
-                </div>
-    
-                <div class="prod"> <img src="https://i.ibb.co/mCLqzHQ/gab3.png" alt="gab3" border="0" />
-                    <p class="txt"> <a href="produtos/pc.html"> <b> CUK ROG Strix G15CK Gaming Desktop </b> </a> <br> R$2.800,00</p>
-                </div>
-    
-                <div class="prod"> <img src="https://i.ibb.co/NCtv6Kq/rtx.png" alt="rtx" border="0" />
-                    <p class="txt"> <a href="produtos/pvideo.html"> <b> GigaByte GForce RTX2080 </b> </a> <br> R$8.000,00 </p>
-                </div>
-    
-                <div class="prod"> <img src="https://i.ibb.co/D8QLfF5/fonte.jpg" alt="fonte" border="0" />
-                    <p class="txt"> <a href="produtos/fonte.html"> <b> Fonte Corsair Series CX600 </b> </a> <br> R$450,00 </p>
+                <div class="prod"> 
+                    <a href="produtos/amd.html">
+                        <img src="https://i.ibb.co/Qv7zZw1/procIntl.jpg" alt="procIntl"/> 
+                        <p>Intel Core i9 9960X</p> 
+                        <p>R$4.170,00</p>
+                    </a>
                 </div>
             </div>
+            <div class="container_products">
+                <div class="prod"> 
+                    <a href="produtos/amd.html">
+                        <img src="https://i.ibb.co/mCLqzHQ/gab3.png" alt="gab3"/> 
+                        <p>CUK ROG Strix G15CK Gaming Desktop</p> 
+                        <p>R$2.800,00</p>
+                    </a>
+                </div>
+    
+                <div class="prod"> 
+                    <a href="produtos/amd.html">
+                        <img src="https://i.ibb.co/NCtv6Kq/rtx.png" alt="rtx"/> 
+                        <p>GigaByte GForce RTX2080</p> 
+                        <p>R$8.000,00</p>
+                    </a>
+                </div>
+    
+                <div class="prod"> 
+                    <a href="produtos/amd.html">
+                        <img src="https://i.ibb.co/D8QLfF5/fonte.jpg" alt="fonte"/> 
+                        <p>Fonte Corsair Series CX600</p> 
+                        <p>R$450,00</p>
+                    </a>
+                </div>
+            </div> 
 
+            <!--Últimas Peças-->
+ 
+            <hr class="ult">
+            <h1 class="ultpc"> Últimas Peças </h1>
+            <div class="ult_pecas">
+                <div class="maisvend">
+                    <a href="produtos/ram.html">
+                        <div class="img">
+                            <img src="https://i.ibb.co/SfdqWdP/ult1.jpg" alt="ult1"/>
+                        </div>
+                        <div class="text">   
+                            <p class="txtDest"> Memória HyperX Predator RGB, 8GB </p>
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="maisvend">
+                    <a href="produtos/ssd.html">
+                        <div class="img">
+                            <img src="https://i.ibb.co/cwpNhRW/ult2.jpg" alt="ult2"/>
+                        </div>
+                        <div class="text">
+                            <p class="txtDest"> SSD Kingston A400, 240GB </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="maisvend">
+                    <a href="produtos/hd.html">
+                        <div class="img">
+                            <img src="https://i.ibb.co/2Z1Rpfr/hd.jpg" alt="hd"/>
+                        </div>
+                        <div class="text">
+                            <p class="txtDest"> HD Seagate BarraCuda, 1TB </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="maisvend">
+                    <a href="produtos/rote.html">
+                        <div class="img">
+                            <img src="https://i.ibb.co/HYwTwQC/ult4.jpg" alt="ult4"/>
+                        </div>
+                        <div class="text">
+                            <p class="txtDest"> Roteador Wireless Dual Band TP </p>
+                        </div>  
+                    </a>  
+                </div>
             </div>
-
-            <section> <!--Últimas Peças-->
-
-                <h1 class="ultpc"> Últimas Peças </h1>
-                <hr class="ult">
-
-                <div class="ult_pecas">
-                    <div class="maisvend">
-                        <img src="https://i.ibb.co/SfdqWdP/ult1.jpg" alt="ult1" border="0" />
-                    
-                        <div class="text">
-                            <a href="produtos/ram.html">
-                                <p class="txtDest"> Memória HyperX Predator RGB, 8GB </p>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="maisvend">
-                        <img src="https://i.ibb.co/cwpNhRW/ult2.jpg" alt="ult2" border="0" />
-                    
-                        <div class="text">
-                            <a href="produtos/ssd.html">
-                                <p class="txtDest"> SSD Kingston A400, 240GB </p>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="maisvend">
-                        <img src="https://i.ibb.co/2Z1Rpfr/hd.jpg" alt="hd" border="0" />
-                        
-                        <div class="text">
-                            <a href="produtos/hd.html"> 
-                                <p class="txtDest"> HD Seagate BarraCuda, 1TB </p>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="maisvend">
-                        <img src="https://i.ibb.co/HYwTwQC/ult4.jpg" alt="ult4" border="0" />
-                        
-                        <div class="text">
-                            <a href="produtos/rote.html">
-                                <p class="txtDest"> Roteador Wireless Dual Band TP </p>
-                            </a>
-                        </div>
-                    </div>
-                </div>        
-            </section>
 
 	    </section>
     </main>
 
-
-    <footer> <p> &copy 2021 - Diego / Geovanna /  Guilherme / Rodrigo / - ADS4/APSII </p> </footer> 
-    <script src="scripts/mobile-menu.js"></script>
+    <footer>
+        <p> &copy 2021 - Diego / Geovanna /  Guilherme / Rodrigo / - ADS4/APSII </p>
+    </footer> 
     <script src="scripts/index.js"></script>
 </body>
 </html>
