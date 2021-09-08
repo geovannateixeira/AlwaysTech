@@ -6,8 +6,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Lucida Console;
-    color: #FFFFFF;
+    font-family: Calibri;
+    color: black;
     /*border: none;*/
 }
 
@@ -37,7 +37,7 @@ form a:hover{
     margin-top: 10vh;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 3px 2px 2px 3px  #FFFFFF
+    box-shadow: 3px 2px 2px 3px crimson;
 }
 
 form{
@@ -57,7 +57,7 @@ label{
 
 input{
     color: #FFFFFF;
-    background-color:#040C23;
+    background-color: rgb(121, 11, 33);
     padding: 10px;
     font-size: 1rem;
     margin-bottom: 20px;
@@ -69,11 +69,12 @@ input{
 }
 
 input:focus{
-    border-bottom:  2px solid #08558B;
+    transition: 0.5s;
+    border-bottom:  7px solid crimson;
 }
 
 #forgot-pass{
-    color:#FFFFFF;
+    color:black;
     text-align: right;
     display: block;
 }
@@ -87,7 +88,7 @@ input[type="button"]{
     border-radius: 20px ;
     margin-top: 30px;
     color:#FFFFFF;
-    background-color: #08558B;
+    background-color: crimson;
     cursor: pointer;
 }
 
