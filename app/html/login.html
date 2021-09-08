@@ -13,32 +13,65 @@
 <body>
     <header>
 
-        <div class="logo1"><a href="/app/index.html">Always Tech</a></div>
-        <input type="checkbox" id="btn_menu">
-        <label for="btn_menu">&#9776;</label>
-        
-        <nav class="menu">
-            
-            <ul class="lists">
-                <li><a href="/app/html/produtos.html"> Produtos </a></li>
-                <li><a href="/app/html/contato.html"> Contato </a></li>
-                
-            </ul> 
+        <!-- Mobile Contents -->
 
-            <ul class="title">
-                <div class="logo">
-                    <li><a href="/app/index.html">
-                        <span>Always Tech</span> 
-                    </a></li>
+        <div id="mobile-header_content">
+            <div id="mb-menu_content">
+                <input type="checkbox" id="btn_menu">
+                <label id="menu_icon" for="btn_menu">&#9776;</label>
+
+                <nav class="menu">
+                    <ul class="lists">
+                        <li><a href="../html/produtos.html"> Computadores </a></li>
+                        <li><a href="../html/produtos.html"> Notebooks </a></li>
+                        <li><a href="../html/produtos.html"> Componentes </a></li>
+                    </ul> 
+    
+                    <ul class="lists">  
+                        <li><a href="../html/carrinho.html"> Carrinho</a></li>
+                        <li><a href="../html/contato.html"> Contato</a></li>
+                        <li><a href="../html/login.html"> Login/Cadastro </a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="mb-tittle_content" class="nav_box">
+                <a href="../index.html">Always Tech</a>
+            </div>
+        </div>
+
+        <!-- Desktop Contents -->
+
+        <div id="desktop-header_content">
+            <div id="sub-menu_content" class="nav_box">
+                <div id="sub-menu">
+                    <a href="../html/produtos.html"> Produtos </a>
+                    <div id="sub-menu_options">
+                        <a href="../html/produtos.html"> Computadores </a>
+                        <a href="../html/produtos.html"> Notebooks </a>
+                        <a href="../html/produtos.html"> Componentes </a>
+                    </div>
                 </div>
-            </ul>    
-
-            <ul class="lists2">  
-                <li><a href="/app/html/carrinho.html">  <img src="/app/icons/car_icon.png"/></a></li>  
-                <li><a href="/app/html/login.html"> <img src="/app/icons/perfil.png"/></a></li>
-                
-            </ul>
-        </nav>
+            </div>
+            
+            <div id="tittle_content" class="nav_box">
+                <a href="../index.html">Always Tech</a>
+            </div>
+            
+            <div id="img_content" class="nav_box">
+                <div id="img_box">
+                    <div title="Carrinho" class="img_box">
+                        <a href="../html/carrinho.html"> <img src="../icons/car_icon.png" /></a>
+                    </div>
+                    <div title="Contato" class="img_box">
+                        <a href="../html/contato.html"><img src="../icons/contato.png"></a>
+                    </div>
+                    <div title="Perfil" class="img_box">
+                        <a href="../html/login.html"> <img src="../icons/perfil.png"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
  
     </header>
 
@@ -84,7 +117,6 @@
             
     </main>
 
-    <footer> <p> &copy 2021 - Diego / Geovanna /  Guilherme / Rodrigo / - ADS4/APSII </p> </footer> 
     <script src="../scripts/login.js"> </script>
 </body>
 </html>
