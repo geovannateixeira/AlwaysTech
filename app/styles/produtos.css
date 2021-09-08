@@ -1,11 +1,9 @@
 .ttl{
-    color: #FFFFFF;
-   text-align: center;
-   line-height: 50px;
+    padding-top: 50px;
+    color: black;
+    text-align: center;
 }
-  
 
-  
 .maisvend{
     width: 250px;
     height: 220px;
