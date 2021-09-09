@@ -2,12 +2,10 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/header.css">
-    <link rel="stylesheet" href="../styles/cdsproduto.css">
-    <link rel="stylesheet" href="../styles/menu.css">
-    <title>Funcionário</title>
+    <link rel="stylesheet" href="../styles/componentes.css">
+    <title>Componentes</title>
 </head>
 <body>
     <header>
@@ -71,46 +69,31 @@
                 </div>
             </div>
         </div>
- 
+        
     </header>
 
     <main>
         <section>
-            <h1> Cadastro do Produto</h1>
-            <form method="GET" id="formulario" name="formulario">
-               
-                <label class="frm"> Código do Produto: </label> <input type="number" id="cod_prod" name="cod_prod" placeholder="Digite O Código do Produto">
-                <br>
-                <br>
-                
-                <div class="lg">
-                    <img src="https://i.ibb.co/mG3BppX/al3.png" alt="al3">
-                </div>
+            <h1 class="maisvend"> Mais Vendidos </h1>
+            
+            <div class="vend">
+                <div class="comp"> <img src="https://i.ibb.co/7tShYhr/pdt1.jpg" alt="pdt1"> <a href="#"> <p class="txt"> Kit Teclado, Mouse e MousePad </p> </a> </div>
+                <div class="comp"> <img src="https://i.ibb.co/2kR9pTR/head.png" alt="head"><a href="#"> <p class="txt"> Headset Gamer RGB Preto </p> </a> </div>
+                <div class="comp"> <img src="https://i.ibb.co/r48YKmB/mouse.png" alt="mouse"> <a href="#">  <p class="txt"> Mouse Gamer ReDragon </p> </a> </div>
+            </div>
+           
+            <h1 class="pop"> Populares </h1>
 
-                <label class="frm"> Nome do Produto: </label> <input type="text" id="nome_prod" name="nome_prod" placeholder="Digite o Nome do Produto">
-                 
-                <br>
-                <br>
+            <div class="comp"> <img src="https://i.ibb.co/vXVhBKk/fonte-gm.png" alt="fonte-gm"> <a href="#"> <p class="txt"> Fonte GameMax GM550 </p> </a> </div>
+            <div class="comp"> <img src="https://i.ibb.co/qdddCmZ/ult3.jpg" alt="ult3"> <a href="#">  <p class="txt"> HD Seagate BarraCuda  </p> </a> </div>
+            <div class="comp"> <img src="https://i.ibb.co/XLLr3NP/ssd-blue.png" alt="ssd-blue"> <a href="#">  <p class="txt"> SSD Interno BLUE 1TB   </p> </a> </div>
+            <div class="comp"> <img src="https://i.ibb.co/k4KKvMY/pm-asus.png" alt="pm-asus"> <a href="#">  <p class="txt"> Placa Mãe ASUS Prime B450M </p> </a> </div>
+            <div class="comp"> <img src="https://i.ibb.co/RzJWY7T/pv.png" alt="pv"> <a href="#">  <p class="txt"> Placa de Vídeo Galax NVIDIA </p> </a> </div>
+            <div class="comp"> <img src="https://i.ibb.co/gW0S5DR/tec.png" alt="tec"> <a href="#">  <p class="txt"> Teclado Gamer Led Rgb </p> </a> </div>
+            <div class="comp"> <img src="https://i.ibb.co/d6KrLTJ/moni.png" alt="moni"> <a href="#">  <p class="txt"> Monitor Gamer Acer </p> </a> </div>
+            <div class="comp"> <img src="https://i.ibb.co/qstfXrM/rote.png" alt="rote"> <a href="#">  <p class="txt"> Roteador Wi-fi </p> </a> </div>
 
-                <label class="frm"> Preço: </label> <input type="number" id="valor" name="valor" placeholder="Digite o Preço">
-                <br>
-                <br>
-                
-                <label class="frm"> Descrição: </label>
-                <br>
-                <textarea name="descricao" id="descricao" placeholder="Descrição do Produto" cols="20" rows="10"></textarea>
-                <br>
-                <br>
-                
-                <label class="frm"> Quantidade: </label> <input type="number" id="qtd" name="qtd" placeholder="Digite a Quantidade">
-                <br>
-                <br>
-                
-                <input type="button" id="btn" value="Voltar" onclick="voltar()">
-                <input type="button" id="btn" value="Cadastrar" onclick="cadastrar()">
-            </form>
-    </section>
-    </main>
-               <script src="../scripts/cdsprod.js"></script> 
+         </section>
+     </main>
 </body>
 </html>
