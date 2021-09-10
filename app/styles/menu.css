@@ -1,5 +1,4 @@
 
-
 label[for="btn_menu"]{
     padding: 5px;
     text-align: center;
@@ -18,7 +17,6 @@ label[for="btn_menu"]{
     display: none;
 }
 
-
 @media screen and (min-width: 320px) and (max-width: 640px){
 
     label[for="btn_menu"]{
@@ -30,14 +28,9 @@ label[for="btn_menu"]{
         margin-left: 0;
     }
 
-
     .menu{
         margin-left: -100%;
         transition: .4s;
-    }
-
-    main{
-        margin-top: 300px;
     }
 
     .logo{
@@ -51,7 +44,6 @@ label[for="btn_menu"]{
         position: absolute;
         margin-top: 30px;
     }
-
 
     .menu .title{
         display: none;
@@ -68,20 +60,6 @@ label[for="btn_menu"]{
         display: block;
         margin: 0;
     }
-
-    nav .lists{
-        margin-top: 40px;
-    }
-
-    nav ul{
-        width: 180px;
-    }
-
-    nav ul li{
-        padding: 20px;
-    }
-
-    
-   
+ 
 }
 

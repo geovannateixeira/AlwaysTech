@@ -2,12 +2,10 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/header.css">
-    <link rel="stylesheet" href="../styles/cdsproduto.css">
-    <link rel="stylesheet" href="../styles/menu.css">
-    <title>Funcionário</title>
+    <link rel="stylesheet" href="../styles/note.css">
+    <title>Notebooks</title>
 </head>
 <body>
     <header>
@@ -71,46 +69,31 @@
                 </div>
             </div>
         </div>
- 
+        
     </header>
 
     <main>
         <section>
-            <h1> Cadastro do Produto</h1>
-            <form method="GET" id="formulario" name="formulario">
-               
-                <label class="frm"> Código do Produto: </label> <input type="number" id="cod_prod" name="cod_prod" placeholder="Digite O Código do Produto">
-                <br>
-                <br>
-                
-                <div class="lg">
-                    <img src="https://i.ibb.co/mG3BppX/al3.png" alt="al3">
-                </div>
+            <h1 class="maisvend"> Mais Vendidos </h1>
+            
+            <div class="vend">
+                <div class="note"> <img src="https://i.ibb.co/q0CtNWy/pdt6.jpg" alt="pdt6"> <a href="#"> <p class="txt"> Notebook Acer Intel Core i5, 8GB </p> </a> </div>
+                <div class="note"> <img src="https://i.ibb.co/pJynwbw/notebook8.png" alt="notebook8"> <a href="#"> <p class="txt"> Notebook Gamer Asus ROG Zephyrus S </p> </a> </div>
+                <div class="note"> <img src="https://i.ibb.co/T12dhBq/notebook9.png" alt="notebook9"> <a href="#">  <p class="txt"> Notebook Lenovo IdeaPad Gaming 3i </p> </a> </div>
+            </div>
+           
+            <h1 class="pop"> Populares </h1>
 
-                <label class="frm"> Nome do Produto: </label> <input type="text" id="nome_prod" name="nome_prod" placeholder="Digite o Nome do Produto">
-                 
-                <br>
-                <br>
+            <div class="note"> <img src="https://i.ibb.co/34f86J0/note.jpg" alt="note"> <a href="#"> <p class="txt"> Notebook Compaq Presario 430 </p> </a> </div>
+            <div class="note"> <img src="https://i.ibb.co/7bMFv2g/notebook1.png" alt="notebook1"> <a href="#">  <p class="txt"> Notebook S51  </p> </a> </div>
+            <div class="note"> <img src="https://i.ibb.co/7kM6kQN/notebook2.png" alt="notebook2"> <a href="#">  <p class="txt"> Notebook Dell Inspiron i3501-M25P   </p> </a> </div>
+            <div class="note"> <img src="https://i.ibb.co/C0fCrDX/notebook3.png" alt="notebook3"> <a href="#">  <p class="txt"> Notebook Gamer Acer Predator Helios 300  </p> </a> </div>
+            <div class="note"> <img src="https://i.ibb.co/TwGpNZ5/notebook4.png" alt="notebook4"> <a href="#">  <p class="txt"> Alienware 17 Gaming </p> </a> </div>
+            <div class="note"> <img src="https://i.ibb.co/GMpYMPN/notebook5.png" alt="notebook5"> <a href="#">  <p class="txt"> Notebook ASUS M515DA-EJ533T </p> </a> </div>
+            <div class="note"> <img src="https://i.ibb.co/BcRsnmt/notebook6.png" alt="notebook6"> <a href="#">  <p class="txt"> Macbook Pro 13,3” </p> </a> </div>
+            <div class="note"> <img src="https://i.ibb.co/qN1RnT4/notebook7.png" alt="notebook7"> <a href="#">  <p class="txt"> Notebook Lenovo IdeaPad S145 </p> </a> </div>
 
-                <label class="frm"> Preço: </label> <input type="number" id="valor" name="valor" placeholder="Digite o Preço">
-                <br>
-                <br>
-                
-                <label class="frm"> Descrição: </label>
-                <br>
-                <textarea name="descricao" id="descricao" placeholder="Descrição do Produto" cols="20" rows="10"></textarea>
-                <br>
-                <br>
-                
-                <label class="frm"> Quantidade: </label> <input type="number" id="qtd" name="qtd" placeholder="Digite a Quantidade">
-                <br>
-                <br>
-                
-                <input type="button" id="btn" value="Voltar" onclick="voltar()">
-                <input type="button" id="btn" value="Cadastrar" onclick="cadastrar()">
-            </form>
-    </section>
-    </main>
-               <script src="../scripts/cdsprod.js"></script> 
+         </section>
+     </main>
 </body>
 </html>
