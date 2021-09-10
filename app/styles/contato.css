@@ -41,6 +41,8 @@ section{
     padding-bottom: 20px;
     margin: 50px auto 25px auto;
     text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 2px 2px 3px crimson;
 }
 
 form{
@@ -51,6 +53,9 @@ form{
 
 .contact_box {
     display: block;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 450px 200px;
 }
 
 input{
@@ -69,24 +74,78 @@ input{
 
 .fml #btn {
     margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: crimson;
+    color: white;
+    padding: 3px;
 }
+
+#nome{    
+    position: relative;
+    right: 182px;
+    bottom: 18px;
+    margin-top: 15px;
+}
+
+#email{
+    position: relative;
+    right: 182px;
+    bottom: 18px;
+    margin-top: 15px;
+}
+
+#mensagem{
+    padding: 8px 0px 0px 2px;
+    margin-top: 4px;
+}
+
 
 @media screen and (min-width: 320px) and (max-width: 640px){
     body{
         width: 700px;
         margin-left: -30px;
     }
+
     header, footer{
         width: 100%;
         border: none;
     }
+    
     .fml{
         margin-left: auto;
         margin-right: auto;
-        width: 100%;
-
+        width: 105%;
     }
 
+    h1, h3{
+        margin: 0px;
+        padding-top: 20px;
+    }
+
+    .contact_box{
+        display: grid;
+        grid-template-columns: 350px 200px;    
+    }
+
+    .msg_box, #arq{
+        font-size: 18px;
+    }
+
+    #nome{    
+        position: relative;
+        right: 132px;
+        bottom: 18px;
+        margin-top: 15px;
+    }
+
+    #email{
+        position: relative;
+        right: 132px;
+        bottom: 18px;
+        margin-top: 15px;
+    }
+    
 }
 
 @media screen and (min-width: 641px) and (max-width: 1024px){
@@ -99,9 +158,33 @@ input{
 
     .fml{
         margin-top: 40px;
-        margin-left:auto;
-        margin-right: auto;
-        width: 580px;
+        margin-left: 64x;
+        margin-right: 64px;
+        width: 512px;
+    }
+
+    h1, h3{
+        margin: 0px;
+        padding-top: 20px;
+    }
+
+    .contact_box{
+        display: grid;
+        grid-template-columns: 280px 200px;    
+    }
+
+    #nome{    
+        position: relative;
+        right: 97px;
+        bottom: 18px;
+        margin-top: 15px;
+    }
+
+    #email{
+        position: relative;
+        right: 97px;
+        bottom: 18px;
+        margin-top: 15px;
     }
 }
 
@@ -109,5 +192,10 @@ input{
     header, footer{
         margin: auto;
         border: none;
+    }
+
+    h1, h3{
+        margin: 0px;
+        padding-top: 10px;
     }
 }
