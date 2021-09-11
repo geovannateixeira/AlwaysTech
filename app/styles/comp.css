@@ -44,4 +44,36 @@
     line-height: 35px;
     margin-top: 0px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+
+    .pcs{
+        margin-left: 35px;
+    }
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px){
+   .vend{
+       margin-left: 137px;
+   }
+   
+   .pop{
+        padding-top: 634px;
+        margin-right: 8px;
+    }
+   
+   .pcs{
+      margin-top: 44px;
+   }
+}
+
+@media screen and (max-width: 1025px) {
+    .vend{
+        width: 100%;
+    }
+}
+
+
+ 
   

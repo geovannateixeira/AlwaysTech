@@ -44,4 +44,59 @@
     line-height: 35px;
     margin-top: 0px;
 }
-  
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+    header{
+        width: 98%;
+    }
+
+    .maisvend{
+        text-align: center;
+    }
+
+    .vend{
+        margin-left: 4px;
+    }
+
+    .pop{
+        padding-top: 580px;
+        text-align: center;
+    }
+
+    .note{
+        margin-left: 35px;
+    }
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px){
+   header{
+        width: 123%;
+    }
+
+    .maisvend{
+        margin-left: 130px;
+    }
+
+    .vend{
+       width: 90%;
+   }
+   
+   .pop{
+        padding-top: 310px;
+        margin-left: -196px;
+        float: left;
+   }
+   
+   .note{
+      margin-top: 60px;
+   }
+}
+
+
+@media screen and (max-width: 1025px) {
+    .vend{
+        width: 100%;
+        margin-left: 0px;
+    }
+}
