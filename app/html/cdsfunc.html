@@ -78,62 +78,61 @@
         <section>
             <h1> Cadastre-se</h1>
             <form method="GET" id="formulario" name="formulario">
-                <label class="frm"> Nome Completo: </label> <input type="text" id="nome" name="nome" placeholder="Digite seu Nome aqui">
-                <br>
-                <br>
-                
-                <div class="lg">
-                    <img src="https://i.ibb.co/mG3BppX/al3.png" alt="al3">
+
+                <div class="box-left">
+                    <div class="alinhar">
+                        <label class="frm"> Nome Completo: </label> <input type="text" id="nome" name="nome" placeholder="Digite seu Nome aqui">                        
+                    </div>
+                    <div class="alinhar">
+                        <label class="frm"> CPF: </label> <input type="number" id="cpf" name="cpf" placeholder="Digite seu CPF">                                          
+                    </div>
+                    <div class="alinhar">   
+                        <label class="frm"> Email: </label> <input type="e-mail" id="email" name="email" placeholder="Digite seu E-mail">
+                    </div> 
+                    <div class="alinhar">
+                        <label class="frm"> Celular: </label> <input type="number" id="cel" name="cel" placeholder="Digite seu Celular">
+                    </div>
+                    <div class="alinhar">
+                        <label class="frm">  Data de Nascimento: </label> <input type="date" id="dataNasc" name="dataNasc" placeholder="Digite sua Data de Nascimento">
+                    </div>
+                    <div class="alinhar">
+                        <label class="frm"> Endereço / Nº: </label> <input type="text" id="end" name="end" placeholder="Digite seu Endereço com o Número">
+                    </div>
+                    <div class="alinhar">
+                        <label class="frm"> CEP: </label> <input type="number" id="cep" name="cep" placeholder="Digite seu CEP">
+                    </div>
+                    <div class="alinhar">   
+                        <label class="frm">  Data de Admissão: </label> <input type="date" id="dataAdm" name="dataAdm" placeholder="Digite a Data de Admissão">
+                    </div>
+                    <div class="alinhar">
+                        <label class="frm"> Cargo: </label> <input type="text" id="cargo" name="cargo" placeholder="Digite seu Cargo">
+                    </div>
+                    <div class="alinhar"> 
+                        <label class="frm"> Salário: </label> <input class="caixa" type="number" id="sal" name="sal" placeholder="Digite seu Salário">
+                    </div>
+                    
+                    
                 </div>
+                <div class="box-right">
+                    
+                    <div class="lg">
+                        <img src="https://i.ibb.co/mG3BppX/al3.png" alt="al3">
+                    </div>
 
-               
-                <label class="frm"> CPF: </label> <input type="number" id="cpf" name="cpf" placeholder="Digite seu CPF">
-                 
-                <br>
-                <br>
-
-                <label class="frm"> Email: </label> <input type="e-mail" id="email" name="email" placeholder="Digite seu E-mail">
-                <br>
-                <br>
-                <label class="frm"> Celular: </label> <input type="number" id="cel" name="cel" placeholder="Digite seu Celular">
-                <br>
-                <br>
-                 
-                <label class="frm">  Data de Nascimento: </label> <input type="date" id="dataNasc" name="dataNasc" placeholder="Digite sua Data de Nascimento">
-                <br>
-                <br>
+                    <div class="alinhar2">
+                        <label class="frm"> Login: </label> <input class="caixa" type="text" id="login" name="login" placeholder="Digite seu Login">
+                    </div>
+                    <div class="alinhar2">
+                        <label class="frm"> Senha: </label> <input class="caixa" type="password" id="senha" name="senha" placeholder="Digite sua Senha">
+                    </div>
+                    
+                    <div class="botoes">
+                        <input type="button" id="btn" value="Voltar" onclick="voltar()">
+                        <input type="button" id="btn" value="Cadastrar" onclick="validar()">
+                    </div>
+                </div> 
                 
-                <label class="frm"> Endereço / Nº: </label> <input type="text" id="end" name="end" placeholder="Digite seu Endereço com o Número">
-                <br>
-                <br>
                 
-                <label class="frm"> CEP: </label> <input type="number" id="cep" name="cep" placeholder="Digite seu CEP">
-                <br>
-                <br>
-               
-                <label class="frm">  Data de Admissão: </label> <input type="date" id="dataAdm" name="dataAdm" placeholder="Digite a Data de Admissão">
-                <br>
-                <br>
-                
-                <label class="frm"> Cargo: </label> <input type="text" id="cargo" name="cargo" placeholder="Digite seu Cargo">
-                <br>
-                <br>
-                
-                <label class="frm"> Salário: </label> <input type="number" id="sal" name="sal" placeholder="Digite seu Salário">
-                <br>
-                <br>
-                
-                <label class="frm"> Login: </label> <input type="text" id="login" name="login" placeholder="Digite seu Login">
-                <br>
-                <br>
-                
-                <label class="frm"> Senha: </label> <input type="password" id="senha" name="senha" placeholder="Digite sua Senha">
-                <br>
-                <br>
-               
-                <input type="button" id="btn" value="Voltar" onclick="voltar()">
-                <input type="button" id="btn" value="Cadastrar" onclick="validar()">
-    
              </form>
         </section>
     </main>
