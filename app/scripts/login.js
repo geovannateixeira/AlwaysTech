@@ -17,7 +17,7 @@ function Login() {
         var us = usuarios[u];
         if (us.login === usuario && us.senha === senha) {
            alert("Dados Corretos")
-            window.location = "../index.html";
+            window.location = "../html/perfiluser.html";
             return true;
         }
     
