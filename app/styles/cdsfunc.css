@@ -44,7 +44,6 @@ input[type=number] {
 #btn{
     width: 150px;
     height: 40px;
-    float: left;
     margin-left: 80px;
     margin-top: 10px;
     cursor: pointer;
@@ -110,29 +109,30 @@ input[type=number] {
         width: 100%;
     }
     .alinhar2{
-        width: 80%;
-        margin-left: 20px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .alinhar{
-        width: 80%;
-        margin-left: 20px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     input{
-        width: 100px;
+        width: 60%;
     }
 
     #btn{
     width: 120px;
     height: 40px;
-    float: left;
-    margin-left: 60px;
-    margin-top: 10px;
+    margin: auto;
     cursor: pointer;
     }
 
     .botoes{
+        width: fit-content;
         margin-top: 40px;
         margin-left: auto;
         margin-right: auto;

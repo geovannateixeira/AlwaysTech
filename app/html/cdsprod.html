@@ -78,35 +78,46 @@
             <h1> Cadastro do Produto</h1>
             <form method="GET" id="formulario" name="formulario">
                
-                <label class="frm"> Código do Produto: </label> <input type="number" id="cod_prod" name="cod_prod" placeholder="Digite O Código do Produto">
-                <br>
-                <br>
+                <div class="box-left">
+                    
+                    <div class="alinhar">
+                        <label class="frm"> Código do Produto: </label> <input type="number" id="cod_prod" name="cod_prod" placeholder="Digite O Código do Produto">
+                    </div>
+                    
+                    <div class="alinhar">
+                        <label class="frm"> Nome do Produto: </label> <input type="text" id="nome_prod" name="nome_prod" placeholder="Digite o Nome do Produto">
+                    </div>
                 
-                <div class="lg">
-                    <img src="https://i.ibb.co/mG3BppX/al3.png" alt="al3">
+                    <div class="alinhar">
+                        <label class="frm"> Preço: </label> <input type="number" id="valor" name="valor" placeholder="Digite o Preço">
+                    </div>
+                    
+                    <div class="alinhar">
+                        <label class="frm"> Descrição: </label>
+                    </div>
+
+                    <div class="alinhar">
+                        <textarea name="descricao" id="descricao" placeholder="Descrição do Produto" cols="20" rows="10"></textarea>
+                    </div>
+                    
+                    
+                    
                 </div>
+                <div class="box-right"> 
+                    
+                    <div class="lg">
+                        <img src="https://i.ibb.co/mG3BppX/al3.png" alt="al3">
+                    </div>
 
-                <label class="frm"> Nome do Produto: </label> <input type="text" id="nome_prod" name="nome_prod" placeholder="Digite o Nome do Produto">
-                 
-                <br>
-                <br>
+                    <div class="alinhar2">
+                        <label class="frm1"> Quantidade: </label> <input type="number" id="qtd" name="qtd" placeholder="Digite a Quantidade">
+                    </div>
 
-                <label class="frm"> Preço: </label> <input type="number" id="valor" name="valor" placeholder="Digite o Preço">
-                <br>
-                <br>
-                
-                <label class="frm"> Descrição: </label>
-                <br>
-                <textarea name="descricao" id="descricao" placeholder="Descrição do Produto" cols="20" rows="10"></textarea>
-                <br>
-                <br>
-                
-                <label class="frm"> Quantidade: </label> <input type="number" id="qtd" name="qtd" placeholder="Digite a Quantidade">
-                <br>
-                <br>
-                
-                <input type="button" id="btn" value="Voltar" onclick="voltar()">
-                <input type="button" id="btn" value="Cadastrar" onclick="cadastrar()">
+                    <div class="botoes">
+                        <input type="button" id="btn" value="Voltar" onclick="voltar()">
+                        <input type="button" id="btn" value="Cadastrar" onclick="cadastrar()">
+                    </div>
+                </div>     
             </form>
     </section>
     </main>
