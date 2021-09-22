@@ -22,7 +22,7 @@ header.innerHTML =
     '</div>' +
     '<div id="mb-title_content" class="nav_box">' +
         '<a href="../index.html">' + 
-            '<img src="../icons/logo.png">' + 
+            '<h1>Always Tech</h1>' + 
         '</a>' + 
     '</div>' + 
 '</div>' + 
@@ -41,7 +41,7 @@ header.innerHTML =
     
     '<div id="title_content" class="nav_box">' +
         '<a href="../index.html">' + 
-            '<img src="../icons/logo.png">' + 
+            '<h1>Always Tech</h1>' + 
         '</a>' + 
     '</div>' +
     
