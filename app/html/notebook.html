@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/note.css">
+    <title>Notebooks</title>
+</head>
+<body>
+    <header>
+        <script src="../scripts/headerGenerate.js"></script>
+    </header>
+
+    <article>
+        <div class="mb_filter_box">
+            <img src="../icons/filtro.png">
+        </div>
+        <input type="checkbox" class="mobile_show"></input>
+
+        <aside>
+            <h1 class="title mobile_title">Filtrar por : </h1>
+
+            <div class="box_filter">
+                <p class="subTitle_filter">Pesquise pelo nome : </p>
+                <div id="search_box">
+                    <input id="nome_input" type="text">
+                    <a id="search_btn" href="">
+                        <img src="../icons/lupa.png">
+                    </a>
+                </div>
+            </div>
+            <div class="box_filter" id="range_filter">
+                <p class="subTitle_filter">Preço : </p>
+                <input id="rangeSlider" type="range" min="1" max="10000" value="5000">
+                <div>
+                    <p id="min_value">R$ 1,00</p>
+                    <p id="max_value">R$ 10.000,00</p>
+                </div>
+            </div>
+            <div class="box_filter hide_filter mb_box_filter">
+                <div class="box_hide_filter">
+                    <p class="subTitle_filter text_hide_filter">Marca</p>
+                    <img src="../icons/arrow_down.png">
+                </div>
+                <div class="filter_content" id="marca_content" style="display: none;">
+                    <label>
+                        <input type="checkbox" value="acer">
+                        Acer
+                    </label>
+                    <label>
+                        <input type="checkbox" value="dell">
+                        Dell
+                    </label>
+                    <label>
+                        <input type="checkbox" value="lenovo">
+                        Lenovo
+                    </label>
+                    <label>
+                        <input type="checkbox" value="samsung">
+                        Samsung
+                    </label>
+                    <label>
+                        <input type="checkbox" value="apple">
+                        Apple
+                    </label>
+                </div>
+            </div>
+            <div class="box_filter hide_filter mb_box_filter">
+                <div class="box_hide_filter">
+                    <p class="subTitle_filter text_hide_filter">Processador</p>
+                    <img src="../icons/arrow_down.png">
+                </div>
+                <div class="filter_content" id="processador_content" style="display: none;">
+                    <label>
+                        <input type="checkbox" value="amd">
+                        AMD
+                    </label>
+                    <label>
+                        <input type="checkbox" value="intel">
+                        Intel
+                    </label>
+                </div>
+            </div>
+            <div class="box_filter hide_filter mb_box_filter">
+                <div class="box_hide_filter">
+                    <p class="subTitle_filter text_hide_filter">Placa de Vídeo</p>
+                    <img src="../icons/arrow_down.png">
+                </div>
+                <div class="filter_content" id="placa-de-video_content" style="display: none;">
+                    <label>
+                        <input type="checkbox" value="sim">
+                        Sim
+                    </label>
+                </div>
+            </div>
+            <div class="box_filter hide_filter mb_box_filter">
+                <div class="box_hide_filter">
+                    <p class="subTitle_filter text_hide_filter">Memória RAM</p>
+                    <img src="../icons/arrow_down.png">
+                </div>
+                <div class="filter_content" id="ram_content" style="display: none;">
+                    <label>
+                        <input type="checkbox" value="2">
+                        2GB
+                    </label>
+                    <label>
+                        <input type="checkbox" value="4">
+                        4GB
+                    </label>
+                    <label>
+                        <input type="checkbox" value="8">
+                        8GB
+                    </label>
+                    <label>
+                        <input type="checkbox" value="16">
+                        16GB
+                    </label>
+                </div>
+            </div>
+            <div class="box_filter hide_filter mb_box_filter">
+                <div class="box_hide_filter">
+                    <p class="subTitle_filter text_hide_filter">Armazenamento</p>
+                    <img src="../icons/arrow_down.png">
+                </div>
+                <div class="filter_content" id="armazenamento_content" style="display: none;">
+                    <label>
+                        <input type="checkbox" value="ssd">
+                        SDD
+                    </label>
+                    <label>
+                        <input type="checkbox" value="HD">
+                        HD
+                    </label>
+                </div>
+            </div>
+            <div class="box_filter hide_filter mb_box_filter">
+                <div class="box_hide_filter">
+                    <p class="subTitle_filter text_hide_filter">Placa Mãe</p>
+                    <img src="../icons/arrow_down.png">
+                </div>
+                <div class="filter_content" id="placa-mae_content" style="display: none;">
+                    <label>
+                        <input type="checkbox" value="ddr4">
+                        DDR4
+                    </label>
+                    <label>
+                        <input type="checkbox" value="ddr3">
+                        DDR3
+                    </label>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <section class="vend">
+                <h1 class="title"> Mais Vendidos </h1>
+
+                <div class="note">
+                    <a href="#">
+                        <img src="https://i.ibb.co/q0CtNWy/pdt6.jpg" alt="pdt6">
+                        <div class="txt">
+                            <p> Notebook Acer Intel Core i5, 8GB </p>
+                            <p class="price"> R$ 3000,00 </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="note">
+                    <a href="#">
+                        <img src="https://i.ibb.co/pJynwbw/notebook8.png" alt="notebook8">
+                        <div class="txt">
+                            <p> Notebook Gamer Asus ROG Zephyrus S </p>
+                            <p class="price"> R$ 3500,00 </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="note">
+                    <a href="#">
+                        <img src="https://i.ibb.co/T12dhBq/notebook9.png" alt="notebook9">
+                        <div class="txt">
+                            <p> Notebook Lenovo IdeaPad Gaming 3i </p>
+                            <p class="price"> R$ 2500,00 </p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section class="vend">
+                <h1 class="title"> Populares </h1>
+            
+                <div class="note">
+                    <a href="#">
+                        <img src="https://i.ibb.co/34f86J0/note.jpg" alt="note">
+                        <div class="txt">
+                            <p> Notebook Compaq Presario 430 </p>
+                            <p class="price"> R$ 2000,00 </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="note">
+                    <a href="#">
+                        <img src="https://i.ibb.co/7bMFv2g/notebook1.png" alt="notebook1">
+                        <div class="txt">
+                            <p> Notebook S51 </p>
+                            <p class="price"> R$ 2250,00 </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="note">
+                    <a href="#">
+                        <img src="https://i.ibb.co/7kM6kQN/notebook2.png" alt="notebook2">
+                        <div class="txt">
+                            <p> Notebook Dell Inspiron i3501-M25P </p>
+                            <p class="price"> R$ 2500,00 </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="note">
+                    <a href="#">
+                        <img src="https://i.ibb.co/C0fCrDX/notebook3.png" alt="notebook3">
+                        <div class="txt">
+                            <p> Notebook Gamer Acer Predator Helios 300 </p>
+                            <p class="price"> R$ 2700,00 </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="note">
+                    <a href="#">
+                        <img src="https://i.ibb.co/TwGpNZ5/notebook4.png" alt="notebook4">
+                        <div class="txt">
+                            <p> Alienware 17 Gaming </p>
+                            <p class="price"> R$ 4000,00 </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="note">
+                    <a href="#">
+                        <img src="https://i.ibb.co/GMpYMPN/notebook5.png" alt="notebook5">
+                        <div class="txt">
+                            <p> Notebook ASUS M515DA-EJ533T </p>
+                            <p class="price"> R$ 4000,00 </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="note">
+                    <a href="#">
+                        <img src="https://i.ibb.co/BcRsnmt/notebook6.png" alt="notebook6">
+                        <div class="txt">
+                            <p> Macbook Pro 13,3” </p>
+                            <p class="price"> R$ 4000,00 </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="note">
+                    <a href="#">
+                        <img src="https://i.ibb.co/qN1RnT4/notebook7.png" alt="notebook7">
+                        <div class="txt">
+                            <p> Notebook Lenovo IdeaPad S145 </p>
+                            <p class="price"> R$ 4000,00 </p>
+                        </div>
+                    </a>
+                </div>
+             </section>
+        </main>
+    </article>
+    <script src="../scripts/filtro.js"></script>
+</body>
+</html>
