@@ -10,7 +10,7 @@ header.innerHTML =
         '<nav class="menu">' +
             '<ul class="lists">' +
                 '<li><a href="../html/computador.html"> Computadores </a></li>' +
-                '<li><a href="../html/note.html"> Notebooks </a></li>' +
+                '<li><a href="../html/notebook.html"> Notebooks </a></li>' +
                 '<li><a href="../html/componentes.html"> Componentes </a></li>' +
             '</ul>' +
             '<ul class="lists">' +
@@ -33,7 +33,7 @@ header.innerHTML =
             '<a href="../html/produtos.html"> Produtos </a>' +
             '<div id="sub-menu_options">' +
                 '<a href="../html/computador.html"> Computadores </a>' +
-                '<a href="../html/note.html"> Notebooks </a>' +
+                '<a href="../html/notebook.html"> Notebooks </a>' +
                 '<a href="../html/componentes.html"> Componentes </a>' +
             '</div>' +
         '</div>' +
