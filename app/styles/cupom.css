@@ -1,49 +1,3 @@
-.lateral{
-    width: 20%;
-    height: 400px;
-    margin-top: 40px;
-    margin-left: 6px;
-    float: left;
-}
-
-.content{
-    width: 78.5%;
-    height: 400px;
-    margin-top: 60px;
-    margin-left: 6px;
-    float: left;
-    border-radius: 8px;
-    box-shadow: 2px 2px 2px 2px #212346;
-    overflow-y: scroll;
-}
-
-.lt{
-    width: 95.5%;
-    height: 67px;
-    background-color: #212346;
-    margin-top: 17px;
-    margin-left: 6px;
-    border-radius: 8px;
-}
-
-.lt:hover{
-    background-color: #DC143C;
-    box-shadow: 2px 2px 2px 2px #FFFFFF;
-    transition: .5s;
-    cursor: pointer;
-}
-
-.ttl{
-    line-height: 60px;
-    text-align: center;
-    color: #FFFFFF;
-    font-size: 18px;
-}
-
-.ttl a{
-    color: #FFFFFF;
-    text-decoration: none;
-}
 
 .txt{
     width: 100%;
@@ -184,7 +138,7 @@ input[type="button"]:hover{
         margin-left: 30px;
     }
 
-    .btn{
+    .btnc{
         position: relative;
         right: 270px;
         width: 120px;
@@ -196,7 +150,7 @@ input[type="button"]:hover{
         width: 627px;
     }
 
-    .btn{
+    .btnc{
       position: relative;
       right: 170px;
       display: block;
