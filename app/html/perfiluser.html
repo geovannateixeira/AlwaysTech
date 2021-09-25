@@ -14,73 +14,12 @@
 </head>
 <body>
     <header>
-
-        <!-- Mobile Contents -->
-
-        <div id="mobile-header_content">
-            <div id="mb-menu_content">
-                <input type="checkbox" id="btn_menu">
-                <label id="menu_icon" for="btn_menu">&#9776;</label>
-
-                <nav class="menu">
-                    <ul class="lists">
-                        <li><a href="../html/computador.html"> Computadores </a></li>
-                        <li><a href="../html/note.html"> Notebooks </a></li>
-                        <li><a href="../html/componentes.html"> Componentes </a></li>
-                    </ul> 
-    
-                    <ul class="lists">  
-                        <li><a href="../html/carrinho.html"> Carrinho</a></li>
-                        <li><a href="../html/contato.html"> Contato</a></li>
-                        <li><a href="../html/login.html"> Login/Cadastro </a></li>
-                    </ul>
-                </nav>
-            </div>
-
-            <div id="mb-tittle_content" class="nav_box">
-                <a href="../index.html">Always Tech</a>
-            </div>
-        </div>
-
-        <!-- Desktop Contents -->
-
-        <div id="desktop-header_content">
-            <div id="sub-menu_content" class="nav_box">
-                <div id="sub-menu">
-                    <a href="../html/produtos.html"> Produtos </a>
-                    <div id="sub-menu_options">
-                        <a href="../html/computador.html"> Computadores </a>
-                        <a href="../html/note.html"> Notebooks </a>
-                        <a href="../html/componentes.html"> Componentes </a>
-                    </div>
-                </div>
-            </div>
-            
-            <div id="tittle_content" class="nav_box">
-                <a href="../index.html">Always Tech</a>
-            </div>
-            
-            <div id="img_content" class="nav_box">
-                <div id="img_box">
-                    <div title="Carrinho" class="img_box">
-                        <a href="../html/carrinho.html"> <img src="../icons/car_icon.png" /></a>
-                    </div>
-                    <div title="Contato" class="img_box">
-                        <a href="../html/contato.html"><img src="../icons/contato.png"></a>
-                    </div>
-                    <div title="Perfil" class="img_box">
-                        <a href="../html/login.html"> <img src="../icons/perfil.png"/></a>
-                    </div>
-                </div>
-            </div>
-        </div>
- 
+        <script src="../scripts/headerGenerate.js"></script>
     </header>
 
     <main>
         <section>
             <div class="lateral">
-
                 <div class="lt">
                     <input type="submit" class="ttl" id="dds" value="Meus Dados">  
                 </div>
@@ -100,8 +39,6 @@
                 <div class="lt">
                     <input type="submit" class="ttl" id="cupom" value="Cupons">  
                 </div>
-
-
             </div>
 
             <div class="content">
@@ -117,12 +54,12 @@
                                 <p> Enviamos um email para vc por segurança. Não esqueça de clicar no link</p>
                             </div>
 
-                             <div class="email">
+                            <div class="email">
                                 <label class="ast"> * </label>   
                                 <label class="lbl"> Email: </label> 
                                 <input name="email" id="email" disabled="" readonly="" value="email@email.com">
                                 <span data-cy="change-email" id="alt">Alterar</span>
-                          </div>
+                            </div>
                                                
                             <div class="check">
                                 <input type="checkbox" id="promotionalEmails" data-cy="formField__promotionalEmails" value="receber e-mails promocionais">
@@ -182,7 +119,7 @@
 
                 <!-- Página de Análise de Produtos-->
 
-                <div class="analise" style="display: none;" >
+                <div class="analise" style="display: none;">
                 <div class="txt"> <h1 class="txt1"> Análise dos Pedidos </h1> </div>
 
                 <div class="info">
@@ -238,8 +175,8 @@
                 </div>
             </div>
 
+            <!--Págine de Lista de Produtos-->
 
-                <!--Págine de Lista de Produtos-->
             <div class="lista"  style="display: none;">
                 <div class="txt"> <h1 class="txt1"> Lista de Desejos </h1> </div>
                     
@@ -254,9 +191,7 @@
                                     
                             </p> 
                         </a>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" id="cheio" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16"  style="float:right; margin-right:15px; margin-top:5px">
-                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-                          </svg>
+                        
                         
                         <div class="core">
                           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16" style="float:right; margin-right:15px; margin-top:5px">
@@ -429,8 +364,7 @@
 
         </section>
     </main>
-<script src="../scripts/perfilUser.js"></script>
-<script src="../scripts/lista.js"></script>
-<script src="../scripts/headerGenerate.js"></script>
-    </body>
-    </html>
+    <script src="../scripts/perfilUser.js"></script>
+    <script src="../scripts/lista.js"></script>
+</body>
+</html>
