@@ -175,7 +175,7 @@ input[type='range']::-webkit-slider-thumb {
 }
 .filter_content {
     width: 100%;
-    border: 2px solid crimson;
+    border: 2px solid rgb(220, 20, 60);
     border-top: none;
 }
 .filter_content input {
