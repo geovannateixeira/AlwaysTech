@@ -6,33 +6,37 @@ var usuarios = [
 ];
 
 var func = [
-    {"login": "administrador", "senha": "547saq@@"}
+    {"login": "administrador", "senha": "547saq@@"},
+    {"login": "func2", "senha": "547saq@@"},
+    {"login": "func3", "senha": "547saq@@"},
+    {"login": "func4", "senha": "547saq@@"}
 ];
 
 function Login() {
-    var usuario = document.getElementsByName('login')[0].value.toLowerCase();
-    var senha = document.getElementsByName('password')[0].value;
+    let usuario = document.getElementById("lg").value;
+    let senha = document.getElementById("password").value;
+    let check = false;
 
-    for (var u in usuarios) {
-        var us = usuarios[u];
-        if (us.login === usuario && us.senha === senha) {
-           alert("Dados Corretos")
-            window.location = "../html/perfiluser.html";
-            return true;
-        }
-    
-    for (var f in func) {
-        var fc = func[f];
-         if(fc.login === usuario && fc.senha === senha){ 
-            alert("Você Está Entrando Na Página de Funcionário")
+    for(let i = 0; i < func.length; i++) {
+        if(usuario == func[i].login && senha == func[i].senha) {
+            check = true;
+            alert("Dados Corretos");
             window.location = "../html/funcionario.html";
-            return true;
+            break;
+        }
+    }
+    for(let i = 0; i < usuarios.length; i++) {
+        if(usuario == usuarios[i].login && senha == usuarios[i].senha) {
+            check = true;
+            alert("Dados Corretos");
+            window.location = "../html/perfiluser.html";
+            break
         }
     }
 
-    alert("Dados incorretos, tente novamente.");
-    return false;
-}
+    if(check == false) {
+        alert("Dados Incorretos, por favor tente novamente.");
+    }
 }
 
 function cadastro(){
