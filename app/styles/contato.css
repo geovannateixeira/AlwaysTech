@@ -118,7 +118,7 @@ input{
         width: 100%;
     }
 
-    h1, h3{
+    .show_infos h1, .show_infos h3{
         margin: 0px;
         padding-top: 20px;
     }
@@ -194,7 +194,7 @@ input{
         border: none;
     }
 
-    h1, h3{
+    .show_infos h1, .show_infos h3{
         margin: 0px;
         padding-top: 10px;
     }
