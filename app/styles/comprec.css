@@ -12,83 +12,10 @@
     line-height: 50px;
 }
 
-.info{
-    width: 95.5%;
-    height: 140px;
-    background-color: #F3F3F3;
-    box-shadow: 2px 2px 2px 2px #212346;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    float: left;
-}
-
-.imagem{
-    width: 10%;
-    height: 110px;
-    margin-left: 15px;
-    margin-top: 15px;
-    float: left;
-    border-radius: 8px;
-    box-shadow: 2px 2px 2px 2px #212346;
-}
-
-.imagem img{
-    width: 100%;
-    border-radius: 8px;
-    height: 110px;
-}
-
-.status{
-    width: 70%;
-    height: 30px;
-    background-color: #212346;
-    margin-left: 50px;
-    margin-top: 15px;
-    border-radius: 8px;
-    float: left;
-}
-
-.stt{
-    text-align: center;
-    color: #FFFFFF;
-    font-size: 18px;
-    line-height: 30px;
-}
-
 .desc{
-    width: 70%;
+     width: 85%;
     height: 60px;
-    margin-left: 50px;
     margin-top: 15px;
-    border-radius: 8px;
-    float: left;
-}
-
-.desc1{
-    color: #000000;
-    text-align: center;
-    font-size: 15px;
-    line-height: 30px;
-}
-
-
-.end{
-    width: 10%;
-    height: 110px;
-    margin-left: 25px;
-    margin-top: -30px;
-    float: left;
-    box-shadow: 2px 2px 2px 2px rgba(3, 134, 21, 0.425);
-    border-radius: 8px;
-}
-
-.end1{
-    color: #000000;
-    text-align: center;
-    font-size: 15px;
-    line-height: 20px;
 }
 
 .sucesso{
@@ -98,90 +25,58 @@
 
 .and{
     color: #F48C06;
-    margin-bottom:10px;
 }
 
 .end-and{
-    width: 10%;
-    height: 110px;
-    margin-left: 25px;
-    margin-top: -30px;
-    float: left;
     border-radius: 8px;
     box-shadow: 2px 2px 2px 2px #F48C06;
+    width: 25%;
+    height: 110px;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.end{
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px #2D6A4F;
+    width: 25%;
+    height: 110px;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.status2{
+    width: 85%;
+    height: 30px;
+    background-color: #212346;
+    margin-top: 15px;
+    margin-left: -6px;
+    border-radius: 8px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 640px){
-    .content{
-        width: 307px;
+    .end-and, .end{
+        width: 90%;
+        height: 80px;
+        margin: 80px auto;
     }
 
-    .status{
-        position: relative;    
-        left: 8px;
-        bottom: 15px;
+    .status2{
+        margin-top: 0;
     }
 
-    .info{
-        width: 270px;
-        height: 250px;
-    }
-
-    .desc1{       
-        position: relative;
-        bottom: 178px;
-        margin-left: 10px;
-    }
-
-    .end, .end-and{
-        width: 183px;
-        height: 72px;
-        position: relative;
-        left: 34px;
-        bottom: 50px;
-    }
     
-
-    .lt{
-        display: block;
-        width: 250px;
-        margin-left: 30px;
-        margin-left: 30px;
-    }    
 }    
 
 @media screen and (min-width: 641px) and (max-width: 1024px){
-    .end, .end-and{
-        position: relative;
-        left: 406px;
-        bottom: 76px; 
-        width: 80px;
-        height: 110px;   
-    }
-
-    .content{
-        margin-left: 10px;
-        width: 620px;
-    }
-    
-    .status{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    .desc1{
-        margin-right: 40px;
-    }
-
-    .info{
-        height: 150px;
-    }
-
-    .lt{        
-        width: 350px;
-        margin-left: 150px;
-        margin-right: 150px;
-    }
     
 }
 

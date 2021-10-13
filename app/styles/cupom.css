@@ -12,7 +12,7 @@
     line-height: 50px;
 }
 
-.info{
+.info3{
     width: 95.5%;
     height: 140px;
     background-color: #F3F3F3;
@@ -21,11 +21,11 @@
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    float: left;
+    display: flex;
 }
 
-.imagem{
-    width: 10%;
+.imagem-cupom{
+    width: 110px;
     height: 110px;
     margin-left: 15px;
     margin-top: 15px;
@@ -33,15 +33,25 @@
     box-shadow: 2px 2px 2px 2px #DC143C;
 }
 
-.imagem img{
+.imagem-cupom img{
     width: 100%;
     height: 110px;
 }
 
-.status{
-    width: 70%;
+.cupom{
+    width: 80%;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.status1{
+    width: 90%;
     height: 30px;
-    background-color: #F3F3F3;
+    background-color: #212346;
+    border-radius: 10px;
     margin-left: 50px;
     margin-top: 15px;
     float: left;
@@ -57,7 +67,6 @@
 .desc{
     width: 70%;
     height: 30px;
-    margin-left: 50px;
     margin-top: 5px;
     float: left;
 }
@@ -67,16 +76,6 @@
     text-align: center;
     font-size: 15px;
     line-height: 25px;
-}
-
-
-.end{
-    width: 10%;
-    height: 110px;
-    margin-left: 25px;
-    margin-top: -30px;
-    float: left;
-    box-shadow: 2px 2px 2px 2px #000000;
 }
 
 .end1{
@@ -92,7 +91,6 @@ input[type="button"]{
     text-transform: uppercase;
     font-weight: bold;
     border: none;
-    margin-left: 350px;
     height: 40px;
     padding: 4px;
     border-radius: 20px ;
@@ -109,63 +107,36 @@ input[type="button"]:hover{
 }
 
 @media screen and (min-width: 320px) and (max-width: 640px){
-    .content{
-        width: 307px;
-        margin-bottom: 10px;
+    .info3{
+        width: 90%;
+        height: 300px;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .status{
-        position: relative;    
-        left: 3px;
+    .imagem-cupom{
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .info{
-        width: 268px;
-        height: 270px;
-        margin-right: 5px;
+    .cupom{
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
     }
 
-    .desc1{       
-        position: relative;
-        bottom: 150px;
-        margin-left: 10px;
-    }
-    
-    .lt{
-        display: block;
-        width: 250px;
-        margin-left: 30px;
-        margin-left: 30px;
+    .status1{
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .btnc{
-        position: relative;
-        right: 270px;
-        width: 120px;
+    input[type="button"]{
+        margin-top: 25px;
     }
 }
 
 @media screen and (min-width: 641px) and (max-width: 1024px){
-    .content{
-        width: 627px;
-    }
-
-    .btnc{
-      position: relative;
-      right: 170px;
-      display: block;
-      width: 150px;
-    }
-
-    .lt{        
-        width: 350px;
-        margin-left: 150px;
-        margin-right: 150px;
-    }
-
-    .info{
-        width: 590px;
-    }
+    
 }
 
 @media screen and (min-width: 1025px){

@@ -228,10 +228,26 @@ input[type="button"]:hover{
 }
 
 @media screen and (min-width: 320px) and (max-width: 640px){
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
     .content{
-        width: 311px;
-        margin-left: 4px;   
-        padding-left: 1px;    
+        width: 95%; 
+        margin-left: 0;
+    }
+
+    .lateral{
+        box-sizing: border-box;
+        width: 97%;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .sub{
@@ -244,10 +260,8 @@ input[type="button"]:hover{
     }
 
     .lt{
-        display: block;
-        width: 250px;
-        margin-left: 30px;
-        margin-left: 30px;
+        width: 300px;
+        margin-left: 0;
     }
 
     .nome,.dt, .doc, .tel, .email, .senha{
@@ -265,17 +279,32 @@ input[type="button"]:hover{
 }
 
 @media screen and (min-width: 641px) and (max-width: 1024px){
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+    }
     .content{
-        width: fit-content;
+        width: 97%;
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 5px;
     }
 
+    .lateral{
+        box-sizing: border-box;
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .lt{        
-        width: 350px;
-        margin-left: 145px;
-        margin-right: 145px;
+        width: 300px;
     }
 
     .btn{

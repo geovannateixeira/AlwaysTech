@@ -2,6 +2,8 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/cadastro.css">
@@ -14,62 +16,63 @@
 
     <main>
         <section>
-            <div class="cad">
-                <h1 class="ttl"> Cadastre-se </h1>
+            <h1> Cadastre-se </h1>
                 <form method="GET" id="formulario" name="formulario">
-                   <label class="frm"> Nome Completo: </label> <input type="text" id="nome" name="nome" placeholder="Digite seu Nome aqui">
-                    <br>
-                   <br>
-                   
-                   <div class="lg">
-                    <img src="https://i.ibb.co/mG3BppX/al3.png" alt="al3">
-                      </div>
+                    
+                        <div class="box-top">
+                            <div class="box-left">
+                                <div class="alinhar">
+                                    <label class="frm"> Nome Completo: </label> <input type="text" id="nome" name="nome" placeholder="Digite seu Nome aqui">
+                                </div>
+                                
+                                <div class="alinhar">
+                                    <label class="frm"> CPF: </label> <input type="number" id="cpf" name="cpf" placeholder="Digite seu CPF">
+                                </div>    
+                                
+                                <div class="alinhar">
+                                    <label class="frm"> Email: </label> <input type="e-mail" id="email" name="email" placeholder="Digite seu E-mail">
+                                </div>
+                                
+                                <div class="alinhar">
+                                    <label class="frm"> Celular: </label> <input type="number" id="cel" name="cel" placeholder="Digite seu Celular">
+                                </div>    
+                                    
+                                <div class="alinhar">
+                                    <label class="frm">  Data de Nascimento: </label> <input type="date" id="dataNasc" name="dataNasc" placeholder="Digite sua Data de Nascimento">
+                                </div>
+                                
+                                <div class="alinhar">
+                                    <label class="frm"> Endereço / Nº: </label> <input type="text" id="end" name="end" placeholder="Digite seu Endereço com o Número">
+                                </div>
+                                <div class="alinhar">
+                                    <label class="frm"> CEP: </label> <input type="number" id="cep" name="cep" placeholder="Digite seu CEP">
+                                </div>
 
-                   <br>
-                   <label class="frm"> CPF: </label> <input type="number" id="cpf" name="cpf" placeholder="Digite seu CPF">
-                    
-                    <br>
-                    <br>
-                    <br>
+                            </div>
+                            <div class="box-right">
+                                
+                                <div class="lg">
+                                    <img src="https://i.ibb.co/mG3BppX/al3.png" alt="al3">
+                                </div>
+                            
+                                <div class="alinhar2">
+                                    <label class="frm"> Login: </label> <input type="text" id="login" name="login" placeholder="Digite seu Login">
+                                </div>
+                            
+                                <div class="alinhar2">
+                                    <label class="frm"> Senha: </label> <input type="password" id="senha" name="senha" placeholder="Digite sua Senha">
+                                </div>
 
-                    <label class="frm"> Email: </label> <input type="e-mail" id="email" name="email" placeholder="Digite seu E-mail">
-                    <br>
-                   <br>
-                   <br>
-                   <label class="frm"> Celular: </label> <input type="number" id="cel" name="cel" placeholder="Digite seu Celular">
-                    
-                    
-                    <br>
-                    <br>
-                    <br>
-                    <label class="frm">  Data de Nascimento: </label> <input type="date" id="dataNasc" name="dataNasc" placeholder="Digite sua Data de Nascimento">
-                   <br>
-                   <br>
-                   <br>
-                   <label class="frm"> Endereço / Nº: </label> <input type="text" id="end" name="end" placeholder="Digite seu Endereço com o Número">
-                    <br>
-                    <br> 
-                    <br>
-                    <label class="frm"> CEP: </label> <input type="number" id="cep" name="cep" placeholder="Digite seu CEP">
-                    <br>
-                    <br> 
-                    <br>
-                    <label class="frm"> Login: </label> <input type="text" id="login" name="login" placeholder="Digite seu Login">
-                     <br>
-                     <br>
-                     <label class="frm"> Senha: </label> <input type="password" id="senha" name="senha" placeholder="Digite sua Senha">
-                     <br>
-                    <br>
-                    <input type="button" id="btn" value="Voltar" onclick="voltar()">
-                    <input type="button" id="btn" value="Cadastrar" onclick="validar()">
-
-                    
-                    </div>
-                    
+                            </div>
+                        </div>
+                        <div class="box-bottom">
+                            <div class="botoes">   
+                                <input type="button" id="btn" value="Voltar" onclick="voltar()">
+                                <input type="button" id="btn" value="Cadastrar" onclick="validar()">
+                            </div>
+                        </div>
                 </form>
-            </div>
-        </section>
-            
+        </section>       
     </main>
 
     <script src="../scripts/cadastro.js"> </script>

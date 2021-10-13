@@ -1,37 +1,40 @@
 section{
-    width: 80%;
-    height: 710px;
-    /*background-color: #A08E8E;*/
+    width: 600px;
+    height: 600px;
     margin: auto;
-    margin-top: 3%;
-}
-
-.ttl{
-    line-height: 80px;
-    text-align: center;
-}
-
-.cad{
-    width:700px;
-    height:710px;
-    /*background-color: #000000;*/
-    color: black;
-    margin: auto;
-    box-shadow: 3px 2px 2px 3px  crimson;
+    margin-top: 50px;
+    box-shadow: 2px 1px 1px 2px crimson;
     border-radius: 5%;
 }
 
-.frm{
-    font-size: 16px;
-    padding-left: 40pt;
+h1{
+    text-align: center;
+    line-height: 50px;
 }
 
-.lg, .lg img{
+
+.lg img{
     width: 200px;
     height: 200px;
     float: right;
-    margin-right: 30px;
-    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+#formulario{
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-bottom{
+    width: 100%;
 }
 
 input{
@@ -51,9 +54,124 @@ input[type=number] {
 #btn{
     width: 150px;
     height: 40px;
-    float: left;
-    margin-left: 120px;
-    margin-top: 10px;
     cursor: pointer;
 }
 
+
+.box-left{
+    width: 340px;
+}
+
+
+.alinhar{
+    display: flex;
+    justify-content:space-between;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.box-right{
+    width:250px;
+}
+
+.alinhar2{
+    display: flex;
+    width: 230px;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.botoes{
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-around;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 640px){
+    header{
+      width: 100%;
+    }
+
+    section{
+      width: 90%;
+      height: 760px;
+      margin-left: 18px;
+    }
+
+    #formulario{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .lg img{
+    width: 200px;
+    height: 200px;
+    display: none;
+    }
+
+    .box-top{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-left{
+        width: 100%;
+    }
+
+    .box-right{
+        width: 100%;
+    }
+    .alinhar2{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .alinhar{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    input{
+        width: 60%;
+    }
+
+    #btn{
+    width: 120px;
+    height: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    }
+
+    .box-bottom{
+        width: 100%;
+    }
+
+    .botoes{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+    .botoes{
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction:column-reverse;
+    }
+}

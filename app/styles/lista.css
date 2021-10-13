@@ -61,10 +61,7 @@ svg{
 }
 
 @media screen and (min-width: 320px) and (max-width: 640px){
-    .content{
-        width: 96%;
-        margin-bottom: 10px;
-    }
+    
 
     .lst{
         width: 255px;
@@ -72,18 +69,11 @@ svg{
         margin-bottom: 8px;
     }
 
-    .lt{
-        display: block;
-        width: 250px;
-        margin-left: 30px;
-        margin-left: 30px;
-    }
+    
 }
 
 @media screen and (min-width: 641px) and (max-width: 1024px){
-    .content{
-        width: 98%;
-    }
+    
 
     .textl{
         font-size: 14px;
@@ -95,11 +85,7 @@ svg{
         margin-bottom: 8px;
     }
 
-    .lt{        
-        width: 350px;
-        margin-left: 145px;
-        margin-right: 145px;
-    }
+    
    
 }
 
