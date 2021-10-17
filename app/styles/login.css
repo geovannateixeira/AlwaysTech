@@ -11,6 +11,11 @@ body {
     /*border: none;*/
 }
 
+img{    
+    width: 100px;
+    height: 100px;
+}
+
 main{
     width: 100%;
 }
@@ -101,13 +106,6 @@ input[type="button"]{
 input[type="button"]:hover{
     background-color: #1B223C;
     transition: .5s;
-}
-.ttl_sociais{
-    margin-bottom: 20px;
-}
-
-#sociais{
-    margin-bottom: 20px;
 }
 
 #registro{
